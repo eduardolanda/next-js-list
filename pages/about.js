@@ -1,31 +1,27 @@
+import React from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
+        <title>Ninja List | About</title>
         <meta name="keywords" content="ninjas" />
       </Head>
       <div>
-        <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>
+        <h1>About</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolor
           ex incidunt, ut a modi in natus minus quaerat veniam ipsa
           necessitatibus, optio at consequuntur delectus fugiat voluptatem
           ipsam! Explicabo.
         </p>
-        <p className={styles.text}>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolor
           ex incidunt, ut a modi in natus minus quaerat veniam ipsa
           necessitatibus, optio at consequuntur delectus fugiat voluptatem
           ipsam! Explicabo.
         </p>
-        <Link href="/ninjas">
-          <a className={styles.btn}>See Ninjas</a>
-        </Link>
       </div>
     </>
   );
